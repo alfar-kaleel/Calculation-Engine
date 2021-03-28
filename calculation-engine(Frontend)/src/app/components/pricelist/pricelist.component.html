@@ -1,0 +1,58 @@
+<div style="background: url(assets/images/body.png); text-align: center;">
+    <h1 style="color:  rgb(3, 3, 46);">Products' prices of 1-50 units</h1>
+
+<table style="border-spacing: 0px 10px; border-collapse: separate; position: absolute; left : -5cm">
+<tr>
+<td> <h3>1. Penguin Ears' prices</h3>
+    <table style="border-spacing: 100px 10px; border-collapse: separate; margin-left: 9cm ">
+        <thead>
+           <tr>
+              
+              <th style="margin-left: 30dp; color: black;"># of product</th>
+              <th style="margin-left: 30dp; color: black;">Price</th>
+              
+              
+           </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let Price of prices , let i = index" style="padding-top: 10dp;">
+                <td style="color:black">{{i+1}}</td>
+               <td style="color: black;">{{Price}}</td>
+               
+              
+            </tr>
+         </tbody>
+
+    </table></td>
+
+
+<td> <h3>1. Horse Shoes' prices</h3>
+    <table style="border-spacing: 100px 10px; border-collapse: separate; margin-left: 9cm ">
+        <thead>
+           <tr>
+              
+              <th style="margin-left: 30dp; color: black;"># of product</th>
+              <th style="margin-left: 30dp; color: black;">Price</th>
+              
+              
+           </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let Shoe of shoes , let i = index" style="padding-top: 10dp;">
+                <td style="color:black">{{i+1}}</td>
+               <td style="color: black;">{{Shoe}}</td>
+               
+              
+            </tr>
+         </tbody>
+
+    </table></td>
+</tr>
+</table>
+
+
+   
+
+   
